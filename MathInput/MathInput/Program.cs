@@ -16,8 +16,8 @@ namespace MathInput
 
 
             Console.WriteLine("Give me the second # to add");
-            string secondNum = Console.ReadLine();
-            int secondN = Convert.ToInt32(secondNum);
+            string secondN = Console.ReadLine();
+            int secondN = Convert.ToInt32(secondN);
 
             double sum = secondN + firstN;
 
