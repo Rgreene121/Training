@@ -1,0 +1,40 @@
+﻿using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Text;
+using System.Threading.Tasks;
+
+namespace ifElsePracticeNumbers3
+{
+    class Program
+    {
+        static void Main(string[] args)
+        {
+            Console.WriteLine("What is your age");
+            double firstNum = double.Parse(Console.ReadLine());
+
+            if (firstNum > 1 && firstNum <= 10)
+            {
+                Console.WriteLine("you are just a kid");
+            }
+            else if (firstNum >= 11 && firstNum <= 20)
+            {
+                Console.WriteLine("you are middle aged");
+            }
+            else if (firstNum >= 21 && firstNum <= 35)
+            {
+                Console.WriteLine("you are getting there");
+            }
+
+            else if (firstNum >= 36 && firstNum <= 55)
+            {
+                Console.WriteLine("You have it figured out by now");
+            }
+            else
+            {
+                Console.WriteLine("You are in your golden years!!");
+            }
+            Console.ReadLine();
+        }
+    }
+}

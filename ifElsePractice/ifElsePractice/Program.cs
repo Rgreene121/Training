@@ -18,7 +18,7 @@ namespace ifElsePractice
 
                 Console.WriteLine("red is good");
                 Console.WriteLine("we found a match!!!");
-                Console.ReadLine();
+                //Console.ReadLine();
 
             }
             else
@@ -27,7 +27,7 @@ namespace ifElsePractice
 
                 Console.WriteLine("Whatever!!!");
                 Console.WriteLine(" we definitely did not find a match");
-                Console.ReadLine();
+                //Console.ReadLine();
 
 
             }
