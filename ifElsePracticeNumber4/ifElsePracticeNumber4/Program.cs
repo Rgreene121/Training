@@ -12,8 +12,8 @@ namespace ifElsePracticeNumber4
         {
             Console.WriteLine("How old were you when you got married?");
             double firstNum = double.Parse(Console.ReadLine());
-            string single = Console.ReadLine().ToLower();
-
+            //string single = Console.ReadLine().ToLower();
+           
             if (firstNum > 1 && firstNum <= 21)
             {
                 Console.WriteLine("You were too young and should have lived more first");
