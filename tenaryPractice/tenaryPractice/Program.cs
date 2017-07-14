@@ -36,8 +36,8 @@ namespace tenaryPractice
             string makeUp2 = Console.ReadLine().ToLower();
             Console.WriteLine("Do you like dressing up");
             string dressingUp = Console.ReadLine().ToLower();
-            string makeupChoice = (makeUp == "mac" || makeUp2 == "sephora") ? "Good Choice" : "Bad Choice";
-            Console.WriteLine($"I like {makeUp} and I like {dressingUp}");
+            string makeupChoice = (makeUp == "mac" && makeUp2 == "sephora") ? "Good Choice" : "Bad Choice";
+            Console.WriteLine($"I like {makeUp} and I like dressing up");
            // Console.ReadKey();
             Console.WriteLine(makeupChoice);
             Console.ReadLine();
@@ -45,3 +45,4 @@ namespace tenaryPractice
         }
     }
 }
+c

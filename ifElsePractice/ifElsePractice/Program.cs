@@ -36,12 +36,7 @@ namespace ifElsePractice
             Console.ReadLine();
 
 
-
-
-
-
-
-
         }
-    }
+
+    }    }           
 }
