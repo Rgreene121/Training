@@ -17,9 +17,10 @@ namespace ScopePractice1
             int sum = number1 * number2;
 
             Console.WriteLine($"The {number1} * {number2} equals {sum}" );
-
+            Console.WriteLine("We are at the bottom of the first method");
             Console.ReadLine();
-            display();
+
+            Display();
 
             Printing();
         }
@@ -32,7 +33,7 @@ namespace ScopePractice1
 
 
 
-        public static void display()
+        public static void Display()
         {
             Console.WriteLine("Today is friday");
             Console.WriteLine("press any key to continue");
