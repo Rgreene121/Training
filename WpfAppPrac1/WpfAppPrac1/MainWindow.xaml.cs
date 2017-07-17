@@ -46,5 +46,10 @@ namespace WpfAppPrac1
             Second go = new Second();
             go.ShowDialog();
         }
+
+        private void Second_Click_1(object sender, RoutedEventArgs e)
+        {
+
+        }
     }
 }

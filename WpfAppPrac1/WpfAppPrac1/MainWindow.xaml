@@ -6,13 +6,13 @@
         xmlns:local="clr-namespace:WpfAppPrac1"
         mc:Ignorable="d"
         Title="MainWindow" Height="350" Width="525">
-    <Grid>
+    <Grid x:Name="test">
         <Grid.Background>
             <ImageBrush/>
         </Grid.Background>
-        <TextBox x:Name="ME" HorizontalAlignment="Left" Height="23" Margin="80,62,0,0" TextWrapping="Wrap" Text="Text1" VerticalAlignment="Top" Width="120" TextChanged="textBox_TextChanged" Background="#FFD48F8F"/>
-        <Label x:Name="labelText" Content="Label" HorizontalAlignment="Left" Margin="300,62,0,0" VerticalAlignment="Top"/>
-        <Button x:Name="Second" Content="Second" HorizontalAlignment="Left" Margin="410,130,0,0" VerticalAlignment="Top" Width="75"/>
+        <TextBox x:Name="button4" HorizontalAlignment="Left" Height="23" Margin="80,62,0,0" TextWrapping="Wrap" Text="Love" VerticalAlignment="Top" Width="120" TextChanged="textBox_TextChanged" Background="#FFD48F8F" FlowDirection="RightToLeft"/>
+        <Label x:Name="lblTone" Content="Tone2" HorizontalAlignment="Left" Margin="300,62,0,0" VerticalAlignment="Top" Background="#FF8711EA"/>
+        <Button x:Name="Second" Content="Second" HorizontalAlignment="Left" Margin="410,130,0,0" VerticalAlignment="Top" Width="75" Click="Second_Click_1" Background="#FFF9255F"/>
         <Button x:Name="btnTwo" Content="Go" HorizontalAlignment="Left" Margin="269,232,0,0" VerticalAlignment="Top" Width="75" Click="btnTwo_Click"/>
 
     </Grid>
