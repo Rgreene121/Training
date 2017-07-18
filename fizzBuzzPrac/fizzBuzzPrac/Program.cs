@@ -25,7 +25,15 @@ namespace fizzBuzzPrac
                 {
                     Console.WriteLine("Fizz");
                 }
+                else if (i % 15 == 0)
+                {
+                    Console.WriteLine("Fizz Buzz");
+                }
+                else
+                {
+                    Console.WriteLine(i);
 
+                } 
             }
             Console.ReadLine();
 
