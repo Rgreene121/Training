@@ -23,8 +23,9 @@ namespace loopArrayIf1
                     break;
 
                 }
-                Console.WriteLine("the loop is over");
-                Console.ReadLine();
+                //Console.WriteLine("The loop is over");
+
+                //Console.ReadLine();
             }
             Console.ReadLine();
 
@@ -46,6 +47,15 @@ namespace loopArrayIf1
             }
             Console.WriteLine("we are out of the loop");
             Console.ReadLine();
+
+            foreach (string car in cars)
+            {
+                Console.WriteLine(car);
+
+
+
+            }
+            Console.Read();
         }
     }
 }
