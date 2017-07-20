@@ -25,7 +25,7 @@ namespace GuessingGame
             v.Nice();
             
         
-            Console.WriteLine("Im back bitches");
+            Console.WriteLine("I'm back bitches");
             Console.ReadKey();
         }
         public void Working()
@@ -35,7 +35,7 @@ namespace GuessingGame
         }
         public static void Talking()
         {
-            Console.WriteLine("Talking alot can be hazardous to your health");
+            Console.WriteLine("Talking a lot can be hazardous to your health");
             
             
         }
