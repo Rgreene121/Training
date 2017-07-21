@@ -20,6 +20,9 @@ namespace Calculator1
         }
         float num, ans;
         int count;
+
+        //public class FormatException()
+
         public void Disable()
         {
             textBox1.Enabled = false;
@@ -52,6 +55,7 @@ namespace Calculator1
             button1.Hide();  //ON Button
             button2.Show(); //off button
             button3.Enabled = true;
+            button4.Enabled = true;
             button7.Enabled = true;
             button5.Enabled = true;
             button6.Enabled = true;
