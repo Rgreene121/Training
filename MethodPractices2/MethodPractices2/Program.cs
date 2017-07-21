@@ -16,16 +16,17 @@ namespace MethodPractices2
             int val1;
             int val2;
 
-            Console.WriteLine("Give me the first number to multiply");
+            Console.WriteLine("Give me the first number to compute");
             string num1 = Console.ReadLine();
             int.TryParse(num1, out val1);
 
-            Console.WriteLine("Give me the second number to multiply");
+            Console.WriteLine("Give me the second number to compute");
             string num2 = Console.ReadLine();
             int.TryParse(num2, out val2);
 
             //p.Multiply(val1, val2);
-            p.Addition(val1, val2);
+            //p.Addition(val1, val2);
+            p.Division(val1, val2);
             Console.ReadLine();
         }
         public void Multiply(int realNum1, int realNum2)
@@ -41,6 +42,14 @@ namespace MethodPractices2
             int product = val1 + val2;
             Console.WriteLine($"The product of {val1} and {val2} is {product}");
             Console.ReadLine();
+
+        }
+        public void Division(int val1, int val2)
+        {
+            int product = val1 / val2;
+            Console.WriteLine($"The product of {val1} and {val2} is {product}");
+            Console.ReadLine();
+
 
         }
     }
