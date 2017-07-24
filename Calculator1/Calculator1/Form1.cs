@@ -20,8 +20,7 @@ namespace Calculator1
         }
         float num, ans;
         int count;
-
-        //public class FormatException()
+        bool focus;
 
         public void Disable()
         {
@@ -46,7 +45,7 @@ namespace Calculator1
             button18.Enabled = false;
             button19.Enabled = false;
             button20.Enabled = false;
-            //button21.Enabled = false;
+            
 
         }
         public void enabled()
@@ -59,7 +58,6 @@ namespace Calculator1
             button7.Enabled = true;
             button5.Enabled = true;
             button6.Enabled = true;
-            //button1.Enabled = true;
             button8.Enabled = true;
             button9.Enabled = true;
             button10.Enabled = true;
@@ -73,18 +71,9 @@ namespace Calculator1
             button18.Enabled = true;
             button19.Enabled = true;
             button20.Enabled = true;
-            //button21.Enabled = true;
+           
 
 
-        }
-
-        private void button17_Click(object sender, EventArgs e) //Divide
-        {
-            num = float.Parse(textBox1.Text);
-            textBox1.Clear();
-            textBox1.Focus();
-            count = 4;
-            label1.Text = num.ToString() + "/";
         }
 
         private void button2_Click(object sender, EventArgs e) //OFF Button
@@ -194,6 +183,15 @@ namespace Calculator1
             label1.Text = num.ToString() + "*";
         }
 
+        private void button17_Click(object sender, EventArgs e) //Divide
+        {
+            num = float.Parse(textBox1.Text);
+            textBox1.Clear();
+            textBox1.Focus();
+            count = 4;
+            label1.Text = num.ToString() + "/";
+        }
+
         private void button20_Click(object sender, EventArgs e) //Equal
         {
             Compute();
@@ -201,8 +199,8 @@ namespace Calculator1
 
         private void button4_Click(object sender, EventArgs e)
         {
-            textBox1.Text = null;
-            label1.Text = "";
+            //textBox1.Text = null;
+            //label1.Text = "";
         }
 
         private void button3_Click(object sender, EventArgs e)
@@ -226,7 +224,7 @@ namespace Calculator1
             textBox1.Text = ""; 
                 //textBox1.Clear();
 
-            //num = ans + float.Parse(textBox1.Text);
+           
         }
 
         public void Compute()
