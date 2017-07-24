@@ -59,7 +59,7 @@ namespace Calculator1
             button7.Enabled = true;
             button5.Enabled = true;
             button6.Enabled = true;
-            button1.Enabled = true;
+            //button1.Enabled = true;
             button8.Enabled = true;
             button9.Enabled = true;
             button10.Enabled = true;
@@ -223,7 +223,10 @@ namespace Calculator1
 
         private void textBox1_TextChanged(object sender, EventArgs e)
         {
+            textBox1.Text = ""; 
+                //textBox1.Clear();
 
+            //num = ans + float.Parse(textBox1.Text);
         }
 
         public void Compute()
