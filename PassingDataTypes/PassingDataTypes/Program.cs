@@ -38,7 +38,7 @@ namespace PassingDataTypes
         }
         public static void ListNames(string [] Names)
         {
-            //string allNames = Names.
+           
             for (int k = 0; k < Names.Length; k++)
             {
                 Console.WriteLine("The names of the ArrayNames array are " + Names[k]);
