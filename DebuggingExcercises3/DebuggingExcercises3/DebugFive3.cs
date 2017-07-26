@@ -18,11 +18,12 @@ class DebugFive3
             for (number = LOW; number <= HIGH; ++number)
 
             {
-                if (number == NUMINROW)
+                if (number % NUMINROW == 0) 
                     WriteLine();
                 Write("{0}{1} ", letter, number.ToString("D2"));
                 
             }
+            //ReadLine();
         }
         ReadLine();
    }
