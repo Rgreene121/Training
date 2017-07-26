@@ -19,7 +19,10 @@ namespace OptionalParameters
             WriteLine("Using 3 arguments here!!!");
             DisplaySize(1, 2, 3);
             ReadLine();
+            Practice(2, "latte");
+            ReadLine();
         }
+
         public static void DisplaySize(int length, int width, int height =1)
         {
             int area = length * width * height;
@@ -27,5 +30,11 @@ namespace OptionalParameters
             Console.ReadLine();
 
         }
+        public static void Practice(double nice, string hamburger = "")
+        {
+            WriteLine($"We brought in the number {nice} but we need more {hamburger} for the cook out");
+        }
+        
+
     }
 }
