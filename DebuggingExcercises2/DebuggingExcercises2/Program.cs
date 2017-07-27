@@ -14,8 +14,8 @@ namespace DebuggingExcercises2
 
             DebugFour1 deb = new DebugFour1();
             DebugFour2 deb2 = new DebugFour2();
-            deb.Four1();
-            deb2.FourTwo();
+            deb.Four3();
+            deb3.FourThree();
             DebugFour4 deb4 = new DebugFour4();
             deb4.Four4();
         }
