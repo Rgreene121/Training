@@ -8,11 +8,11 @@ class DebugSix02
       int x;
       double average;
       double total = 0;
-      Write("What is the average of the numbers ...");
+      Write("What is the average of the numbers array..");
       for(x = 0; x < numbers.Length; ++x)
          Write("{0, 6}", numbers[x]);
       WriteLine();      
-      for(x = 0; x < numbers.Length; ++x)
+      for(.x = 0; x < numbers.Length; ++x)
       {
          total = total + numbers[x];
       }   
