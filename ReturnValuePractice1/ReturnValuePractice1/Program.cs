@@ -29,9 +29,12 @@ namespace ReturnValuePractice1
             FavoriteNumbers(favoriteNum1, favoriteNum2);
             Console.WriteLine($"Our favorite numbers are {favoriteNum1} and{favoriteNum2} put together these are {rnumber} ");
 
+            Console.ReadLine();
+            
             
         
         }
+        
 
         private static string FavoriteFood (string food1, string food2)
         {
