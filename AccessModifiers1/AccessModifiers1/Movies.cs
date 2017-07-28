@@ -8,5 +8,15 @@ namespace AccessModifiers1
 {
     class Movies
     {
+        public void Genre()
+        {
+            Program.Main();
+            Program.DivideNumber(2, 5);
+
+
+        }
+
+
+
     }
 }
