@@ -11,33 +11,31 @@ namespace ReturnValuePractice4
         static void Main(string[] args)
         {
 
-
-        public static void Main()
-        {
-            
-
             int Age = 38;
             int DaysInYear = 365;
 
-            DaysAlive(Age,DaysInYear );
 
-            int complete = TotalNumber(number1, number2);
 
-            Console.WriteLine(complete);
-
+            int sum = TotalNumber(Age, DaysInYear);
+            Console.WriteLine($"You have been alive {sum} since your birth");
             Console.ReadLine();
-            
-
 
         }
-
-        public static int DaysAlive(Age, DaysInYear)
+        public static int TotalNumber(int Age, int DaysInYear)
         {
-            int product = n1 * n2;
-            return product;
+
+            int sum = Age * DaysInYear;
+
+            return sum;
+
+
+
 
         }
-        
-        
+
+       
     }
+
+    
+    
 }
