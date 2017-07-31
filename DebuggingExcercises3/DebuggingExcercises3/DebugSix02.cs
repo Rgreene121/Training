@@ -12,7 +12,7 @@ class DebugSix02
       for(x = 0; x < numbers.Length; ++x)
          Write("{0, 6}", numbers[x]);
       WriteLine();      
-      for(.x = 0; x < numbers.Length; ++x)
+      for(x = 0; x < numbers.Length; ++x)
       {
          total = total + numbers[x];
       }   

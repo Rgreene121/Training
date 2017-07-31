@@ -10,6 +10,7 @@ namespace Debug1Exercise
     {
         static void Main(string[] args)
         {
+            DebugEight2.EightTwo();
         }
     }
 }
