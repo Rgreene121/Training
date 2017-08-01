@@ -11,6 +11,7 @@ namespace InheritanceRestaurant
         static void Main(string[] args)
         {
             PapaJohns pj = new PapaJohns();
+            PizzaHut ph = new PizzaHut();
 
             pj.Sauce = "Tomato";
             pj.Pork1 = "Italian Sausage";
@@ -18,6 +19,12 @@ namespace InheritanceRestaurant
             pj.PrintToppings();
 
             Console.WriteLine();
+
+            ph.Sauce = "Marinara";
+            ph.Bread1 = "Zesty Crust";
+            ph.Meat1 = "Chicken";
+            ph.PrintToppings();
+
             Console.ReadLine();
          
            

@@ -17,7 +17,7 @@ namespace InheritanceRestaurant
         public string Veg2;
 
 
-        public void PrintToppings()
+        public virtual void PrintToppings()
         {
             Console.WriteLine($"Your pizza has {Sauce} + {Pork1} and {Veg1}");
 
