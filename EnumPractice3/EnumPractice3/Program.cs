@@ -31,7 +31,7 @@ namespace EnumPractice3
             switch ((GameOfThrones)KingdomCh)
             {
                 case GameOfThrones.Westeros:
-                    Console.WriteLine("Westeros doesnt have enough power to keep the throne");
+                    Console.WriteLine("Westero's doesn't have enough power to keep the throne");
                     break;
 
                 case GameOfThrones.KingsLanding:
