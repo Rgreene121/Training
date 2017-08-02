@@ -17,7 +17,7 @@ namespace AbstractPractice3
 
             mayhem = XMen.Marvel();
 
-            Console.WriteLine($"Justice comes to us all in {XMen}");
+            Console.WriteLine($"Justice comes to us all in {mayhem}");
             Console.ReadLine();
 
         }
