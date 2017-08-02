@@ -21,11 +21,14 @@ namespace EncapsulationPractice1
             s.FirstName = "Rabi";
             s.LastName = "Basir";
             p.ShowStudent(s);
+            s.GPA = 5 * 6;
+
         }
         public void ShowStudent(Student scholar)
         {
-            Console.WriteLine($"My Id Number is {scholar.IdNumber}");
+            Console.WriteLine($"My Id Number is {scholar.IdNumber} and my name is {scholar.FirstName} and my GPA is {5 * 6}");
             Console.ReadLine();
         }
+        
     }
 }

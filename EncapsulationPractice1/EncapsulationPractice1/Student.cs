@@ -14,6 +14,7 @@ namespace EncapsulationPractice1
         private string firstName;
         private string lastName;
 
+        public int GPA { get; set; }
 
         public int IdNumber
         {
