@@ -18,7 +18,8 @@ namespace BankApp
         int withDrawal = 500;          //Try.Parse
         float num, ans;
         int count;
-        double newBalance;
+        double temporary;
+        string temp1;
 
         public Form1()
         {
@@ -32,11 +33,10 @@ namespace BankApp
 
         private void button1_Click(object sender, EventArgs e)
         {
+            //balance += 1000;
 
-
-            Console.WriteLine($"Your current available balance is {balance}");
             textBox1.Text = balance.ToString("C");
-            //textBox1.Text +
+            
         }
 
         private void textBox1_TextChanged(object sender, EventArgs e)
@@ -50,41 +50,41 @@ namespace BankApp
             }
         }
 
-        private void button2_Click(double balance, out double newBalance)
+        private void button2_Click_1(object sender, EventArgs e)
         {
-            newBalance = balance - float.Parse(textBox1.Text);
-            textBox1.Text = balance.ToString();
+            temp1 = textBox1.Text;
+            double.TryParse(temp1, out temporary);
+            if(!double.TryParse(temp1, out temporary))
+            {
+                textBox1.Text = "Invalid selection";
 
-            ////decimal amount;
-            //if (double.TryParse(double balance, out newBalance))
-            //{
-            //    account.Deposit(amount);
-            //    account.Balance += newBalance;
-            //    depositTextBox.Clear();
-            //    balanceLabel.Text = account.Balance.ToString("c"); // This line added
+            }
+            else if (balance < temporary)
+            {
+                textBox1.Text = "Insufficient funds";
+            }
+            else if ( balance >= temporary)
+            {
 
-            //take text from txtbox1, tryparse, save as a number,
-            // substract that number from balance
+                balance -= temporary;
+            textBox1.Text = balance.ToString("C");
+            }
 
         }
+
+        private void button3_Click(object sender, EventArgs e)
+        {
+            temp1 = textBox1.Text;
+            double.TryParse(temp1, out temporary);
+            balance += temporary;
+            textBox1.Text = balance.ToString("C");
+
+        }
+        //private void 
+
         
-
-
-        //public void Compute()
-        //{
-        //    switch (count)
-        //    {
-        //        case 1:
-        //            newBalance = newBalance + double.Parse(textBox1.Text);
-        //            textBox1.Text = newBalance.ToString();
-        //            break;
-
-        //        case 2:
-        //            newBalance = newBalance - double.Parse(textBox1.Text);
-        //            textBox1.Text = newBalance.ToString();
-        //            break;
     }
-}//    }
+}
     
     
 
