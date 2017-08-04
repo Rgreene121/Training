@@ -4,19 +4,18 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace ConstructDestructPractice
+namespace ConstructorDestructorApp1
 {
     class Program
     {
         static void Main(string[] args)
         {
 
-            Test t = new Test(8128.5);
-            Console.WriteLine("We are in the main method now!!");
-            Console.WriteLine("I know magic");
+            Professor pr = new Professor("Charles,","Xavier");
+            pr.GoodPeople();
+            Professor sn = new Professor(1001, 5000);
+            sn.ShowNumbers();
             Console.ReadLine();
-
-
         }
     }
 }

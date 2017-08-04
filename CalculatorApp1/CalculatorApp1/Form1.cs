@@ -24,7 +24,7 @@ namespace CalculatorApp1
         //double = "0";
         //int i;
         //int length;
-        //string text;
+        string text;
 
         
 
@@ -253,7 +253,7 @@ namespace CalculatorApp1
             textBox1.Clear();
 
             for (int i = 0; i < length; i++) ;
-            textBox1.Text = textBox1.Text + text { object i = null; i};
+            textBox1.Text = textBox1.Text + text= {});
         }
 
         public void Compute()
