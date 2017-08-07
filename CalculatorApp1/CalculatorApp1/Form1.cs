@@ -175,7 +175,7 @@ namespace CalculatorApp1
 
         private void textBox1(object sender, EventArgs e)
         {
-            if (textBox1.Text == "0")
+            if (textBox1.Text == "")
             {
                 textBox1.Text = string.Empty;
                 textBox1.Text = textBox1.Text + "1";
@@ -252,20 +252,20 @@ namespace CalculatorApp1
 
             textBox1.Clear();
 
-            for (int i = 0; i < length; i++) ;
-            textBox1.Text = textBox1.Text + text= {});
+            //for (int i = 0; i < length; i++) ;
+            //textBox1.Text = textBox1.Text + text= {});
         }
 
         public void Compute()
         {
-            switch(count)
+            switch (count)
             {
-                case 1 :
+                case 1:
                     ans = num + float.Parse(textBox1.Text);
                     textBox1.Text = ans.ToString();
                     break;
 
-                case 2 :
+                case 2:
                     ans = num - float.Parse(textBox1.Text);
                     textBox1.Text = ans.ToString();
                     break;
@@ -284,6 +284,7 @@ namespace CalculatorApp1
                     break;
 
             }
+        }
 
 
 

@@ -36,15 +36,17 @@ namespace BankApp
             //balance += 1000;
 
             textBox1.Text = balance.ToString("C");
-            
+            textBox1.ForeColor = Color.Magenta;
+
         }
 
         private void textBox1_TextChanged(object sender, EventArgs e)
         {
-            if (textBox1.Text == "0")
+            if (textBox1.Text == "")
             {
                 textBox1.Text = string.Empty;
-                textBox1.Text = textBox1.Text + "1";
+                textBox1.Text = textBox1.Text = "";
+                
 
 
             }
@@ -76,8 +78,18 @@ namespace BankApp
         {
             temp1 = textBox1.Text;
             double.TryParse(temp1, out temporary);
-            balance += temporary;
-            textBox1.Text = balance.ToString("C");
+            if (!double.TryParse(temp1, out temporary))
+            {
+                textBox1.Text = "Invalid selection";
+
+            }
+            else if ()
+
+            { balance += temporary;
+                textBox1.Text = balance.ToString("C");
+                textBox1.ForeColor = Color.Magenta;
+            }
+
 
         }
         //private void 

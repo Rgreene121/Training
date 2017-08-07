@@ -15,7 +15,11 @@ namespace ConstructorDestructorApp1
             pr.GoodPeople();
             Professor sn = new Professor(1001, 5000);
             sn.ShowNumbers();
+            Student st = new Student();
+            st.Present();
+            st.ShowNumbers();
             Console.ReadLine();
+
         }
     }
 }
