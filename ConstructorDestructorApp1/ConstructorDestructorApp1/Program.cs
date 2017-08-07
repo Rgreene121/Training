@@ -16,8 +16,8 @@ namespace ConstructorDestructorApp1
             Professor sn = new Professor(1001, 5000);
             sn.ShowNumbers();
             Student st = new Student();
-            st.Present();
             st.ShowNumbers();
+            st.Present();
             Console.ReadLine();
 
         }
