@@ -21,7 +21,8 @@ namespace DebuggingExcercises3
             //DebugSix03.SixThree();
             //DebugEight4.EightFour();
             //DebugNine1.NineOne();
-            FixedDebugNine2.NineTwo();
+            //FixedDebugNine2.NineTwo();
+            FixedDebugNine4.NineFour();
 
 
         }
