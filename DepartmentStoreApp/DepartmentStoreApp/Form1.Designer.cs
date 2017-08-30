@@ -28,9 +28,9 @@
         /// </summary>
         private void InitializeComponent()
         {
-            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(Form1));
             System.Windows.Forms.TextBox textBox1;
             System.Windows.Forms.TextBox textBox2;
+            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(Form1));
             this.pictureBox1 = new System.Windows.Forms.PictureBox();
             this.button1 = new System.Windows.Forms.Button();
             this.button2 = new System.Windows.Forms.Button();
@@ -40,6 +40,31 @@
             textBox2 = new System.Windows.Forms.TextBox();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
             this.SuspendLayout();
+            // 
+            // textBox1
+            // 
+            textBox1.Font = new System.Drawing.Font("Curlz MT", 26.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            textBox1.ForeColor = System.Drawing.SystemColors.InfoText;
+            textBox1.Location = new System.Drawing.Point(169, 104);
+            textBox1.Multiline = true;
+            textBox1.Name = "textBox1";
+            textBox1.Size = new System.Drawing.Size(489, 59);
+            textBox1.TabIndex = 1;
+            textBox1.Text = "Welcome To RAD!!";
+            textBox1.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
+            textBox1.TextChanged += new System.EventHandler(this.textBox1_TextChanged);
+            // 
+            // textBox2
+            // 
+            textBox2.Font = new System.Drawing.Font("Curlz MT", 26.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            textBox2.ForeColor = System.Drawing.SystemColors.InfoText;
+            textBox2.Location = new System.Drawing.Point(583, 249);
+            textBox2.Multiline = true;
+            textBox2.Name = "textBox2";
+            textBox2.Size = new System.Drawing.Size(131, 50);
+            textBox2.TabIndex = 6;
+            textBox2.Text = "Total";
+            textBox2.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
             // 
             // pictureBox1
             // 
@@ -53,18 +78,6 @@
             this.pictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.CenterImage;
             this.pictureBox1.TabIndex = 0;
             this.pictureBox1.TabStop = false;
-            // 
-            // textBox1
-            // 
-            textBox1.Font = new System.Drawing.Font("Curlz MT", 26.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            textBox1.ForeColor = System.Drawing.SystemColors.InfoText;
-            textBox1.Location = new System.Drawing.Point(169, 104);
-            textBox1.Multiline = true;
-            textBox1.Name = "textBox1";
-            textBox1.Size = new System.Drawing.Size(489, 59);
-            textBox1.TabIndex = 1;
-            textBox1.Text = "Welcome To RAD!!";
-            textBox1.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
             // 
             // button1
             // 
@@ -105,18 +118,6 @@
             this.button4.TabIndex = 5;
             this.button4.Text = "Hats";
             this.button4.UseVisualStyleBackColor = true;
-            // 
-            // textBox2
-            // 
-            textBox2.Font = new System.Drawing.Font("Curlz MT", 26.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            textBox2.ForeColor = System.Drawing.SystemColors.InfoText;
-            textBox2.Location = new System.Drawing.Point(583, 249);
-            textBox2.Multiline = true;
-            textBox2.Name = "textBox2";
-            textBox2.Size = new System.Drawing.Size(131, 50);
-            textBox2.TabIndex = 6;
-            textBox2.Text = "Total";
-            textBox2.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
             // 
             // Form1
             // 

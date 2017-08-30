@@ -46,7 +46,7 @@ namespace ShoeStoreApp
 
                 if (item.ShoeColor== true)
                 {
-                    Console.WriteLine($"We are sold out of {s2.Color}{item.ShoeColor}");
+                    Console.WriteLine($"We are sold out of {s2.Color}\n{item.ShoeColor}");
 
                 }
 
